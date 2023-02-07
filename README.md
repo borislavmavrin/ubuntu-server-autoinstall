@@ -27,7 +27,7 @@
     ```
  6. create folder for autoinstaller configs: `mkdir server`
  7. create empty meta-data file: `touch server/meta-data`
- 8. create user-data file at `server/user-data` with the follwoing content (see full [doc](https://ubuntu.com/server/docs/install/autoinstall-reference)):
+ 8. create user-data file at `server/user-data` with the follwoing content (see full [doc](https://ubuntu.com/server/docs/install/autoinstall-reference) for all possible options):
     ```
     #cloud-config
     autoinstall:
