@@ -63,7 +63,7 @@ Instructions and helper script to build ubuntu server auto installation iso
       package_upgrade: false
       shutdown: poweroff
     ```
- 9. `cd ..` and run `./create_iso_args.sh`
+ 9. `cd ..` and run [`create_iso_args.sh`](./create_iso_args.sh)
  10. flash the iso and install
  11. in case the `create_iso_args.sh` fails, run `xorriso -indev ubuntu-22.04.1-live-server-amd64.iso -report_el_torito as_mkisofs` that will help to adjust arguments in `create_iso_args.sh`
  12. use virtual machine for debugging
