@@ -1,5 +1,6 @@
 ## Ubuntu Server Autoinstaller iso
-Instructions and helper script to build ubuntu server auto installation iso
+ - Instructions and helper script to build ubuntu server auto installation iso
+ - 
 
 ### Doc
  - [Official doc](https://ubuntu.com/server/docs/install/autoinstall)
@@ -64,7 +65,7 @@ Instructions and helper script to build ubuntu server auto installation iso
       shutdown: poweroff
     ```
  9. `cd ..` and run [`create_iso_args.sh`](./create_iso_args.sh)
- 10. flash the iso and install
- 11. in case the `create_iso_args.sh` fails, run `xorriso -indev ubuntu-22.04.1-live-server-amd64.iso -report_el_torito as_mkisofs` that will help to adjust arguments in `create_iso_args.sh`
- 12. use virtual machine for debugging
-
+ 10. in case the `create_iso_args.sh` fails, run `xorriso -indev ubuntu-22.04.1-live-server-amd64.iso -report_el_torito as_mkisofs` that will help to adjust arguments in `create_iso_args.sh`
+ 11. use virtual machine for debugging
+ 12. Flash the iso onto USB, boot pc from the USB. PC will power off after the installation finishes.
+ 13. ssh into the machine with username: ubuntu, password: ubuntu
