@@ -1,6 +1,5 @@
 ## Ubuntu Server Autoinstaller iso
  - Instructions and helper script to build ubuntu server auto installation iso
- - 
 
 ### Doc
  - [Official doc](https://ubuntu.com/server/docs/install/autoinstall)
